@@ -1,3 +1,5 @@
+# Autoencoders Anomaly Detection Electricty Consumption
+
 ## Literature Table
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         | Year   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                        |   AE&nbsp;Usage         | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Network&nbsp;Topology&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dataset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                     |Regressors             | Uni&nbsp;or&nbsp;Multi     |Regularity                | Granularity           |Noise&nbsp;Level              |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anomaly&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Proprietary    
 |----------------------------------|----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|---------------------|-------------------------------------------|---------------------------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
@@ -28,106 +30,111 @@
 
 ## Network parameters
 
-DIRE CHE L'OPTIMIZER è ADAM PER TUTTI
-CNN AE
+### CNN AE
 *	window = 672
 *	stride = 4
 *	latent_dim = 6
-•	epochs = 150
-•	batch_size = 8
-•	f = 7
-•	First Conv Layer – 16 filters
-•	Second Conv Layer – 32 filters
-•	Third Conv Layer – 64 filters
-•	First ConvTranspose Layer – 64 filters
-•	Second ConvTranspose Layer – 32 filters
-•	Third ConvTranspose Layer – 16 filters
-•	Patience = 15
-•	Learning rate = 10^(-3)
+*	epochs = 150
+*	batch_size = 8
+*	f = 7
+*	First Conv Layer – 16 filters
+*	Second Conv Layer – 32 filters
+*	Third Conv Layer – 64 filters
+*	First ConvTranspose Layer – 64 filters
+*	Second ConvTranspose Layer – 32 filters
+*	Third ConvTranspose Layer – 16 filters
+*	Patience = 15
+*	Learning rate = 10^(-3)
 
-CNN VAE
-•	window = 672
-•	stride = 4
-•	M = 200
-•	latent_dim = 10
-•	epochs = 150
-•	batch_size = 8
-•	f = 5
-•	First Conv Layer – 16 filters
-•	Second Conv Layer – 32 filters
-•	Third Conv Layer – 64 filters
-•	First ConvTranspose Layer – 64 filters
-•	Second ConvTranspose Layer – 32 filters
-•	Third ConvTranspose Layer – 16 filters
-•	Patience = 15
-•	Learning rate = 10^(-3)
+### CNN VAE
+*	window = 672
+*	stride = 4
+*	M = 200
+*	latent_dim = 10
+*	epochs = 150
+*	batch_size = 8
+*	f = 5
+*	optimizer = adam
+*	First Conv Layer – 16 filters
+*	Second Conv Layer – 32 filters
+*	Third Conv Layer – 64 filters
+*	First ConvTranspose Layer – 64 filters
+*	Second ConvTranspose Layer – 32 filters
+*	Third ConvTranspose Layer – 16 filters
+*	Patience = 15
+*	Learning rate = 10^(-3)
 
-LSTM AE
-•	window = 672
-•	stride = 4
-•	latent_dim = 6
-•	epochs = 150
-•	batch_size = 8
-•	First LSTM Layer (encoder) – 64 memory elements
-•	Second LSTM Layer (encoder) – 6 memory elements
-•	First LSTM Layer (decoder) – 64 memory elements
-•	Patience = 10
-•	Learning rate = 10^(-3)
+### LSTM AE
+*	window = 672
+*	stride = 4
+*	latent_dim = 6
+*	epochs = 150
+*	batch_size = 8
+*	optimizer = adam
+*	First LSTM Layer (encoder) – 64 memory elements
+*	Second LSTM Layer (encoder) – 6 memory elements
+*	First LSTM Layer (decoder) – 64 memory elements
+*	Patience = 10
+*	Learning rate = 10^(-3)
 
-LSTM VAE
-•	window = 672
-•	stride = 4
-•	M = 200
-•	latent_dim = 10
-•	epochs = 150
-•	batch_size = 8
-•	First LSTM Layer (encoder) – 64 memory elements
-•	Second LSTM Layer (encoder) – 10 memory elements
-•	First LSTM Layer (decoder) – 64 memory elements
-•	Patience = 10
-•	Learning rate = 10^(-3)
+### LSTM VAE
+*	window = 672
+*	stride = 4
+*	M = 200
+*	latent_dim = 10
+*	epochs = 150
+*	batch_size = 8
+*	optimizer = adam
+*	First LSTM Layer (encoder) – 64 memory elements
+*	Second LSTM Layer (encoder) – 10 memory elements
+*	First LSTM Layer (decoder) – 64 memory elements
+*	Patience = 10
+*	Learning rate = 10^(-3)
  
-CNN VAE Rec Prob
-•	window = 672
-•	stride = 4
-•	M = 200
-•	latent_dim = 10
-•	epochs = 150
-•	batch_size = 8
-•	f = 5
-•	First Conv Layer – 16 filters
-•	Second Conv Layer – 32 filters
-•	Third Conv Layer – 64 filters
-•	First ConvTranspose Layer – 64 filters
-•	Second ConvTranspose Layer – 32 filters
-•	Third ConvTranspose Layer – 16 filters
-•	Patience = 15
-•	Learning rate = 10^(-3)
+### CNN VAE Rec Prob
+*	window = 672
+*	stride = 4
+*	M = 200
+*	latent_dim = 10
+*	epochs = 150
+*	batch_size = 8
+*	f = 5
+*	optimizer = adam
+*	First Conv Layer – 16 filters
+*	Second Conv Layer – 32 filters
+*	Third Conv Layer – 64 filters
+*	First ConvTranspose Layer – 64 filters
+*	Second ConvTranspose Layer – 32 filters
+*	Third ConvTranspose Layer – 16 filters
+*	Patience = 15
+*	Learning rate = 10^(-3)
 
-LSTM VAE Rec Prob
-•	window = 672
-•	stride = 4
-•	M = 200
-•	latent_dim = 10
-•	epochs = 150
-•	batch_size = 8
-•	First LSTM Layer (encoder) – 64 memory elements
-•	Second LSTM Layer (encoder) – 10 memory elements
-•	First LSTM Layer (decoder) – 64 memory elements
-•	Patience = 10
-•	Learning rate = 10^(-3)
+### LSTM VAE Rec Prob
+*	window = 672
+*	stride = 4
+*	M = 200
+*	latent_dim = 10
+*	epochs = 150
+*	batch_size = 8
+*	optimizer = adam
+*	First LSTM Layer (encoder) – 64 memory elements
+*	Second LSTM Layer (encoder) – 10 memory elements
+*	First LSTM Layer (decoder) – 64 memory elements
+*	Patience = 10
+*	Learning rate = 10^(-3)
  
-LSTM VAE Self-Attention
-•	window = 672
-•	stride = 4
-•	M = 200
-•	latent_dim = 10
-•	epochs = 150
-•	batch_size = 8
-•	First LSTM Layer (encoder) – 64 memory elements
-•	First LSTM Layer (decoder) – 64 memory elements
-•	Patience = 10
-•	Learning rate = 10^(-3)
+### LSTM VAE Self-Attention
+*	window = 672
+*	stride = 4
+*	M = 200
+*	latent_dim = 10
+*	epochs = 150
+*	batch_size = 8
+*	optimizer = adam
+*	First LSTM Layer (encoder) – 64 memory elements
+*	First LSTM Layer (decoder) – 64 memory elements
+*	Patience = 10
+*	Learning rate = 10^(-3)
 
 
 ## References
