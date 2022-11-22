@@ -88,7 +88,7 @@
 *	window = 672
 *	stride = 4
 *	M = 200
-    <img align="right"  height="200" width="650" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_VAE_REC_E.png"> 
+    <img align="right"  height="180" width="650" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_VAE_REC_E.png"> 
 *	latent_dim = 10
 *	epochs = 150
 *	batch_size = 8
@@ -122,7 +122,7 @@
 *	window = 672
 *	stride = 4
 *	M = 200
-    <img align="right"  height="190" width="650"  src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_VAE_REC_P.png"> 
+    <img align="right"  height="180" width="650"  src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_VAE_REC_P.png"> 
 *	latent_dim = 10
 *	epochs = 150
 *	batch_size = 8
