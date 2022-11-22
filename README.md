@@ -30,9 +30,9 @@
 
 DIRE CHE L'OPTIMIZER è ADAM PER TUTTI
 CNN AE
-•	window = 672
-•	stride = 4
-•	latent_dim = 6
+*	window = 672
+*	stride = 4
+*	latent_dim = 6
 •	epochs = 150
 •	batch_size = 8
 •	f = 7
