@@ -31,9 +31,13 @@
 ## Network parameters
 
 ### CNN AE
+
+
+
 *	window = 672
 *	stride = 4
 *	latent_dim = 6
+    <img align="right"  height="250" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_AE_REC_E.png"> 
 *	epochs = 150
 *	batch_size = 8
 *	f = 7
@@ -46,11 +50,13 @@
 *	Patience = 15
 *	Learning rate = 10^(-3)
 
+
 ### CNN VAE
 *	window = 672
 *	stride = 4
 *	M = 200
 *	latent_dim = 10
+    <img align="right"  height="250" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_VAE_REC_E.png"> 
 *	epochs = 150
 *	batch_size = 8
 *	f = 5
@@ -68,6 +74,7 @@
 *	window = 672
 *	stride = 4
 *	latent_dim = 6
+    <img align="right"  height="200" width="650" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_AE_REC_E.png"> 
 *	epochs = 150
 *	batch_size = 8
 *	optimizer = adam
@@ -81,6 +88,7 @@
 *	window = 672
 *	stride = 4
 *	M = 200
+    <img align="right"  height="200" width="650" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_VAE_REC_E.png"> 
 *	latent_dim = 10
 *	epochs = 150
 *	batch_size = 8
@@ -96,6 +104,7 @@
 *	stride = 4
 *	M = 200
 *	latent_dim = 10
+    <img align="right"  height="250" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_VAE_REC_P.png"> 
 *	epochs = 150
 *	batch_size = 8
 *	f = 5
@@ -113,6 +122,7 @@
 *	window = 672
 *	stride = 4
 *	M = 200
+    <img align="right"  height="190" width="650"  src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_VAE_REC_P.png"> 
 *	latent_dim = 10
 *	epochs = 150
 *	batch_size = 8
@@ -126,6 +136,7 @@
 ### LSTM VAE Self-Attention
 *	window = 672
 *	stride = 4
+    <img align="right"  height="250" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_ATT_REC_P.png"> 
 *	M = 200
 *	latent_dim = 10
 *	epochs = 150
@@ -136,8 +147,6 @@
 *	Patience = 10
 *	Learning rate = 10^(-3)
 
-
-![alt text](https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_AE_REC_E.png)
 
 
 ## References
