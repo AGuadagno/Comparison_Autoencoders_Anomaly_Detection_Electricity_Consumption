@@ -156,4 +156,46 @@
 
 <a id="3">[3]</a>  Fan, Cheng, et al. "Analytical investigation of autoencoder-based methods for unsupervised anomaly detection in building energy data." Applied energy 211 (2018): 1123-1135.
 
-<a id="4">[4]</a> 
+<a id="4">[4]</a> Araya, D. B., Grolinger, K., ElYamany, H. F., Capretz, M. A., & Bitsuamlak, G. (2016, July). Collective contextual anomaly detection framework for smart buildings. In 2016 international joint conference on neural networks (IJCNN) (pp. 511-518). IEEE.
+
+<a id="5">[5]</a> Araya, D. B., Grolinger, K., ElYamany, H. F., Capretz, M. A., & Bitsuamlak, G. (2017). An ensemble learning framework for anomaly detection in building energy consumption. Energy and Buildings, 144, 191-206.Tasfi, N. L., Higashino, W. A., Grolinger, K., & Capretz, M. A. (2017, June). Deep neural networks with confidence sampling for electrical anomaly detection. In 2017 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData) (pp. 1038-1045). IEEE.
+
+<a id="6">[6]</a> Tasfi, N. L., Higashino, W. A., Grolinger, K., & Capretz, M. A. (2017, June). Deep neural networks with confidence sampling for electrical anomaly detection. In 2017 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData) (pp. 1038-1045). IEEE.
+
+<a id="7">[7]</a> Pereira, J., & Silveira, M. (2018, December). Unsupervised anomaly detection in energy time series data using variational recurrent autoencoders with attention. In 2018 17th IEEE international conference on machine learning and applications (ICMLA) (pp. 1275-1282). IEEE.
+
+<a id="8">[8]</a> Dai, W., Liu, X., Heller, A., & Nielsen, P. S. (2022). Smart Meter Data Anomaly Detection Using Variational Recurrent Autoencoders with Attention. In International Conference on Intelligent Technologies and Applications (pp. 311-324). Springer, Cham.
+
+<a id="9">[9]</a> Castangia, M., Sappa, R., Girmay, A. A., Camarda, C., Macii, E., & Patti, E. (2022). Anomaly detection on household appliances based on variational autoencoders. Sustainable Energy, Grids and Networks, 32, 100823.
+
+<a id="10">[10]</a> Lee, S., Jin, H., Nengroo, S. H., Doh, Y., Lee, C., Heo, T., & Har, D. (2022, January). Smart Metering System Capable of Anomaly Detection by Bi-directional LSTM Autoencoder. In 2022 IEEE International Conference on Consumer Electronics (ICCE) (pp. 1-6). IEEE.
+
+<a id="11">[11]</a> Weng, Y., Zhang, N., & Xia, C. (2018). Multi-agent-based unsupervised detection of energy consumption anomalies on smart campus. IEEE Access, 7, 2169-2178.
+
+<a id="12">[12]</a> Yuan, Y., & Jia, K. (2015, September). A distributed anomaly detection method of operation energy consumption using smart meter data. In 2015 international conference on intelligent information hiding and multimedia signal processing (IIH-MSP) (pp. 310-313). IEEE.
+
+<a id="13">[13]</a> Tsai, C. W., Chiang, K. C., Hsieh, H. Y., Yang, C. W., Lin, J., & Chang, Y. C. (2022). Feature Extraction of Anomaly Electricity Usage Behavior in Residence Using Autoencoder. Electronics, 11(9), 1450.
+
+<a id="14">[14]</a> Kaymakci, C., Wenninger, S., & Sauer, A. (2021). Energy Anomaly Detection in Industrial Applications with Long Short-term Memory-based Autoencoders. Procedia CIRP, 104, 182-187.
+
+<a id="15">[15]</a> Ullah, A., Haydarov, K., Ul Haq, I., Muhammad, K., Rho, S., Lee, M., & Baik, S. W. (2020). Deep learning assisted buildings energy consumption profiling using smart meter data. Sensors, 20(3), 873.
+
+<a id="16">[16]</a> Chahla, C., Snoussi, H., Merghem, L., & Esseghir, M. (2019, February). A Novel Approach for Anomaly Detection in Power Consumption Data. In ICPRAM (pp. 483-490).
+
+<a id="17">[17]</a> Kardi, M., AlSkaif, T., Tekinerdogan, B., & Catalao, J. P. (2021, September). Anomaly Detection in Electricity Consumption Data using Deep Learning. In 2021 IEEE International Conference on Environment and Electrical Engineering and 2021 IEEE Industrial and Commercial Power Systems Europe (EEEIC/I&CPS Europe) (pp. 1-6). IEEE.
+
+<a id="18">[18]</a> Chahla, C., Snoussi, H., Merghem, L., & Esseghir, M. (2020). A deep learning approach for anomaly detection and prediction in power consumption data. Energy Efficiency, 13(8), 1633-1651.
+
+<a id="19">[19]</a> Zhao, Q., Chang, Z., & Min, G. (2021). Anomaly Detection and Classification of Household Electricity Data: A Time Window and Multilayer Hierarchical Network Approach. IEEE Internet of Things Journal, 9(5), 3704-3716.
+
+<a id="20">[20]</a> Wang, L., Turowski, M., Zhang, M., Riedel, T., Beigl, M., Mikut, R., & Hagenmeyer, V. (2020, October). Point and contextual anomaly detection in building load profiles of a university campus. In 2020 IEEE PES Innovative Smart Grid Technologies Europe (ISGT-Europe) (pp. 11-15). IEEE.
+
+<a id="21">[21]</a> Wang, D., Enlund, T., Trygg, J., Tysklind, M., & Jiang, L. (2022). Toward Delicate Anomaly Detection of Energy Consumption for Buildings: Enhance the Performance From Two Levels. IEEE Access, 10, 31649-31659.
+
+<a id="22">[22]</a> Park, S., Jung, S., Hwang, E., & Rho, S. (2021). Variational AutoEncoder-Based Anomaly Detection Scheme for Load Forecasting. In Advances in Artificial Intelligence and Applied Cognitive Computing (pp. 833-839). Springer, Cham.
+
+<a id="23">[23]</a> Nam, H. S., Jeong, Y. K., & Park, J. W. (2020, October). An anomaly detection scheme based on lstm autoencoder for energy management. In 2020 International Conference on Information and Communication Technology Convergence (ICTC) (pp. 1445-1447). IEEE.
+
+<a id="24">[24]</a> Alsalemi, A., Himeur, Y., Bensaali, F., & Amira, A. (2022). An innovative edge-based Internet of Energy solution for promoting energy saving in buildings. Sustainable Cities and Society, 78, 103571.
+
+<a id="25">[25]</a> Himeur, Y., Alsalemi, A., Bensaali, F., & Amira, A. (2022). Detection of appliance-level abnormal energy consumption in buildings using autoencoders and micro-moments. In International Conference On Big Data and Internet of Things (pp. 179-193). Springer, Cham.
