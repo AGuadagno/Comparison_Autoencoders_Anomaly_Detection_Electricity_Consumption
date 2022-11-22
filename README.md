@@ -46,6 +46,9 @@
 *	Patience = 15
 *	Learning rate = 10^(-3)
 
+![alt text](https://github.com/AGuadagno/
+Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/img/CONV AE REC E.pdf)
+
 ### CNN VAE
 *	window = 672
 *	stride = 4
