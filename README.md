@@ -46,9 +46,6 @@
 *	Patience = 15
 *	Learning rate = 10^(-3)
 
-![alt text](https://github.com/AGuadagno/
-Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/img/CONV AE REC E.pdf)
-
 ### CNN VAE
 *	window = 672
 *	stride = 4
@@ -138,6 +135,9 @@ Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/img/CONV AE RE
 *	First LSTM Layer (decoder) – 64 memory elements
 *	Patience = 10
 *	Learning rate = 10^(-3)
+
+
+![alt text](https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_AE_REC_E.png)
 
 
 ## References
