@@ -1,6 +1,8 @@
-# Autoencoders Anomaly Detection Electricty Consumption
+# Empirical Evaluation of Deep Autoencoders for Anomaly Detection in Electricity Consumption of Buildings
 
-## Literature Table
+This repository contains additional material for the article "Empirical Evaluation of Deep Autoencoders for Anomaly Detection in Electricity Consumption of Buildings" authored by D. Azzalini, B. Flammini, C. A. Emanuele, A. Guadagno, E. Ragaini, and F. Amigoni, currently under major revision at IEEE Intelligent Systems.
+
+## Related Work
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         | Year   | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                        |   AE&nbsp;Usage         | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Network&nbsp;Topology&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   |  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dataset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                     |Regressors             | Uni&nbsp;or&nbsp;Multi     |Regularity                | Granularity           |Noise&nbsp;Level              |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anomaly&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Proprietary    
 |----------------------------------|----|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|---------------------|-------------------------------------------|---------------------------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 |Himeur et al. [[1]](#1)           |2021|Applied Energy                                                                                                                                                                                              |Survey                                                           |                                                                                                                                         |                                                                                                                                                                 |       |                     |                                           |                                                   |                                       |                                                                                                                                                                                  |                                                                                                                                             |
@@ -28,16 +30,14 @@
 |Himeur et al. [[23]](#23)          |2022|Sustainable Cities and Society                                                                                                                                                                              |Anomaly Detection                                                |Vanilla AutoEncoder                                                                                                                      |energy consumption                                                                                                                                               |hk     |univariate           |                                           |30 min.                                            |low                                    |Unlabeled - (1) excessive consumption; (2) consumption while outside                                                                                                           |public https://jack-kelly.com/data/                                                                                                          |          
 |Himeur et al. [[24]](#24)          |2022|International Conference On Big Data and Internet of Things                                                                                                                                                 |Anomaly Detection                                                |Vanilla AutoEncoder                                                                                                                      |electricity consumption footprints of different appliances registered in a UK household                                                                          |hk     |univariate           |                                           |30 min.                                            |low                                    |Unlabeled - (1) excessive consumption; (2) consumption while outside                                                                                                           |public https://jack-kelly.com/data/                                                                                                          |          
 
-## Network parameters
+## Network Parameters
 
 ### CNN AE
-
-
 
 *	window = 672
 *	stride = 4
 *	latent_dim = 6
-    <img align="right"  height="250" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_AE_REC_E.png"> 
+    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_AE_REC_E.png"> 
 *	epochs = 150
 *	batch_size = 8
 *	f = 7
@@ -48,7 +48,7 @@
 *	Second ConvTranspose Layer – 32 filters
 *	Third ConvTranspose Layer – 16 filters
 *	Patience = 15
-*	Learning rate = 10^(-3)
+*	Learning rate = 10<sup>-3</sup>
 
 
 ### CNN VAE
@@ -56,7 +56,7 @@
 *	stride = 4
 *	M = 200
 *	latent_dim = 10
-    <img align="right"  height="250" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_VAE_REC_E.png"> 
+    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_VAE_REC_E.png"> 
 *	epochs = 150
 *	batch_size = 8
 *	f = 5
@@ -68,13 +68,13 @@
 *	Second ConvTranspose Layer – 32 filters
 *	Third ConvTranspose Layer – 16 filters
 *	Patience = 15
-*	Learning rate = 10^(-3)
+*	Learning rate = 10<sup>-3</sup>
 
 ### LSTM AE
 *	window = 672
 *	stride = 4
 *	latent_dim = 6
-    <img align="right"  height="200" width="650" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_AE_REC_E.png"> 
+    <img align="right"  height="42%" width="42%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_AE_REC_E.png"> 
 *	epochs = 150
 *	batch_size = 8
 *	optimizer = adam
@@ -82,13 +82,13 @@
 *	Second LSTM Layer (encoder) – 6 memory elements
 *	First LSTM Layer (decoder) – 64 memory elements
 *	Patience = 10
-*	Learning rate = 10^(-3)
+*	Learning rate = 10<sup>-3</sup>
 
 ### LSTM VAE
 *	window = 672
 *	stride = 4
 *	M = 200
-    <img align="right"  height="180" width="650" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_VAE_REC_E.png"> 
+    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_VAE_REC_E.png"> 
 *	latent_dim = 10
 *	epochs = 150
 *	batch_size = 8
@@ -97,14 +97,14 @@
 *	Second LSTM Layer (encoder) – 10 memory elements
 *	First LSTM Layer (decoder) – 64 memory elements
 *	Patience = 10
-*	Learning rate = 10^(-3)
+*	Learning rate = 10<sup>-3</sup>
  
 ### CNN VAE Rec Prob
 *	window = 672
 *	stride = 4
 *	M = 200
 *	latent_dim = 10
-    <img align="right"  height="250" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_VAE_REC_P.png"> 
+    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/CONV_VAE_REC_P.png"> 
 *	epochs = 150
 *	batch_size = 8
 *	f = 5
@@ -116,13 +116,13 @@
 *	Second ConvTranspose Layer – 32 filters
 *	Third ConvTranspose Layer – 16 filters
 *	Patience = 15
-*	Learning rate = 10^(-3)
+*	Learning rate = 10<sup>-3</sup>
 
 ### LSTM VAE Rec Prob
 *	window = 672
 *	stride = 4
 *	M = 200
-    <img align="right"  height="180" width="650"  src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_VAE_REC_P.png"> 
+    <img align="right"  height="50%" width="50%"  src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_VAE_REC_P.png"> 
 *	latent_dim = 10
 *	epochs = 150
 *	batch_size = 8
@@ -131,12 +131,12 @@
 *	Second LSTM Layer (encoder) – 10 memory elements
 *	First LSTM Layer (decoder) – 64 memory elements
 *	Patience = 10
-*	Learning rate = 10^(-3)
+*	Learning rate = 10<sup>-3</sup>
  
 ### LSTM VAE Self-Attention
 *	window = 672
 *	stride = 4
-    <img align="right"  height="250" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_ATT_REC_P.png"> 
+    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_ATT_REC_P.png"> 
 *	M = 200
 *	latent_dim = 10
 *	epochs = 150
@@ -145,16 +145,16 @@
 *	First LSTM Layer (encoder) – 64 memory elements
 *	First LSTM Layer (decoder) – 64 memory elements
 *	Patience = 10
-*	Learning rate = 10^(-3)
+*	Learning rate = 10<sup>-3</sup>
 
 
 
 ## References
-<a id="1">[1]</a>  Himeur, Yassine, et al. "Artificial intelligence based anomaly detection of energy consumption in buildings: A review, current trends and new perspectives." Applied Energy 287 (2021): 116601.
+<a id="1">[1]</a>  Himeur, Y., Ghanem, K., Alsalemi, A., Bensaali, F., & Amira, A. (2021). Artificial intelligence based anomaly detection of energy consumption in buildings: A review, current trends and new perspectives. Applied Energy, 287, 116601.
 
-<a id="2">[2]</a>  Malhotra, Pankaj, et al. "LSTM-based encoder-decoder for multi-sensor anomaly detection." ICML Anomaly Detection Workshop
+<a id="2">[2]</a>  MMalhotra, P., Ramakrishnan, A., Anand, G., Vig, L., Agarwal, P., & Shroff, G. (2016). LSTM-based encoder-decoder for multi-sensor anomaly detection. arXiv preprint arXiv:1607.00148. ICML Anomaly Detection Workshop
 
-<a id="3">[3]</a>  Fan, Cheng, et al. "Analytical investigation of autoencoder-based methods for unsupervised anomaly detection in building energy data." Applied energy 211 (2018): 1123-1135.
+<a id="3">[3]</a>  Fan, C., Xiao, F., Zhao, Y., & Wang, J. (2018). Analytical investigation of autoencoder-based methods for unsupervised anomaly detection in building energy data. Applied energy, 211, 1123-1135.
 
 <a id="4">[4]</a> Araya, D. B., Grolinger, K., ElYamany, H. F., Capretz, M. A., & Bitsuamlak, G. (2016, July). Collective contextual anomaly detection framework for smart buildings. In 2016 international joint conference on neural networks (IJCNN) (pp. 511-518). IEEE.
 
