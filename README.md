@@ -180,22 +180,22 @@ This repository contains additional material for the article "Empirical Evaluati
 
 <a id="15">[15]</a> Ullah, A., Haydarov, K., Ul Haq, I., Muhammad, K., Rho, S., Lee, M., & Baik, S. W. (2020). Deep learning assisted buildings energy consumption profiling using smart meter data. Sensors, 20(3), 1-15.
 
-<a id="16">[16]</a> Chahla, C., Snoussi, H., Merghem, L., & Esseghir, M. (2019). A Novel Approach for Anomaly Detection in Power Consumption Data. In ICPRAM (pp. 483-490).
+<a id="16">[16]</a> Chahla, C., Snoussi, H., Merghem, L., & Esseghir, M. (2019). A Novel Approach for Anomaly Detection in Power Consumption Data. In Proc. ICPRAM (pp. 483-490).
 
-<a id="17">[17]</a> Kardi, M., AlSkaif, T., Tekinerdogan, B., & Catalao, J. P. (2021). Anomaly Detection in Electricity Consumption Data using Deep Learning. In 2021 IEEE International Conference on Environment and Electrical Engineering and 2021 IEEE Industrial and Commercial Power Systems Europe (EEEIC/I&CPS Europe) (pp. 1-6). IEEE.
+<a id="17">[17]</a> Kardi, M., AlSkaif, T., Tekinerdogan, B., & Catalao, J. P. (2021). Anomaly Detection in Electricity Consumption Data using Deep Learning. In Proc. EEEIC/I&CPS Europe (pp. 1-6).
 
-<a id="18">[18]</a> Chahla, C., Snoussi, H., Merghem, L., & Esseghir, M. (2020). A deep learning approach for anomaly detection and prediction in power consumption data. Energy Efficiency, 13(8), 1633-1651.
+<a id="18">[18]</a> Chahla, C., Snoussi, H., Merghem, L., & Esseghir, M. (2020). A deep learning approach for anomaly detection and prediction in power consumption data. Energ Effic, 13(8), 1633-1651.
 
-<a id="19">[19]</a> Zhao, Q., Chang, Z., & Min, G. (2021). Anomaly Detection and Classification of Household Electricity Data: A Time Window and Multilayer Hierarchical Network Approach. IEEE Internet of Things Journal, 9(5), 3704-3716.
+<a id="19">[19]</a> Zhao, Q., Chang, Z., & Min, G. (2021). Anomaly Detection and Classification of Household Electricity Data: A Time Window and Multilayer Hierarchical Network Approach. IEEE Internet Things, 9(5), 3704-3716.
 
-<a id="20">[20]</a> Wang, L., Turowski, M., Zhang, M., Riedel, T., Beigl, M., Mikut, R., & Hagenmeyer, V. (2020). Point and contextual anomaly detection in building load profiles of a university campus. In 2020 IEEE PES Innovative Smart Grid Technologies Europe (ISGT-Europe) (pp. 11-15). IEEE.
+<a id="20">[20]</a> Wang, L., Turowski, M., Zhang, M., Riedel, T., Beigl, M., Mikut, R., & Hagenmeyer, V. (2020). Point and contextual anomaly detection in building load profiles of a university campus. In Proc. ISGT-Europe (pp. 11-15).
 
 <a id="21">[21]</a> Wang, D., Enlund, T., Trygg, J., Tysklind, M., & Jiang, L. (2022). Toward Delicate Anomaly Detection of Energy Consumption for Buildings: Enhance the Performance From Two Levels. IEEE Access, 10, 31649-31659.
 
-<a id="22">[22]</a> Park, S., Jung, S., Hwang, E., & Rho, S. (2021). Variational AutoEncoder-Based Anomaly Detection Scheme for Load Forecasting. In Advances in Artificial Intelligence and Applied Cognitive Computing (pp. 833-839). Springer, Cham.
+<a id="22">[22]</a> Park, S., Jung, S., Hwang, E., & Rho, S. (2021). Variational AutoEncoder-Based Anomaly Detection Scheme for Load Forecasting. In Proc. Adv Artif Intell Appl Cognit Comput (pp. 833-839).
 
-<a id="23">[23]</a> Nam, H. S., Jeong, Y. K., & Park, J. W. (2020). An anomaly detection scheme based on lstm autoencoder for energy management. In 2020 International Conference on Information and Communication Technology Convergence (ICTC) (pp. 1445-1447). IEEE.
+<a id="23">[23]</a> Nam, H. S., Jeong, Y. K., & Park, J. W. (2020). An anomaly detection scheme based on lstm autoencoder for energy management. In Proc. ICTC (pp. 1445-1447). 
 
-<a id="24">[24]</a> Alsalemi, A., Himeur, Y., Bensaali, F., & Amira, A. (2022). An innovative edge-based Internet of Energy solution for promoting energy saving in buildings. Sustainable Cities and Society, 78, 103571.
+<a id="24">[24]</a> Alsalemi, A., Himeur, Y., Bensaali, F., & Amira, A. (2022). An innovative edge-based Internet of Energy solution for promoting energy saving in buildings. SCS 78, 1-13.
 
-<a id="25">[25]</a> Himeur, Y., Alsalemi, A., Bensaali, F., & Amira, A. (2022). Detection of appliance-level abnormal energy consumption in buildings using autoencoders and micro-moments. In International Conference On Big Data and Internet of Things (pp. 179-193). Springer, Cham.
+<a id="25">[25]</a> Himeur, Y., Alsalemi, A., Bensaali, F., & Amira, A. (2022). Detection of appliance-level abnormal energy consumption in buildings using autoencoders and micro-moments. In Proc. BDIoT (pp. 179-193).
