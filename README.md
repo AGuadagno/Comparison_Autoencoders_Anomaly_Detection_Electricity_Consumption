@@ -44,6 +44,7 @@ This repository contains additional material for the article "Empirical Evaluati
 *	epochs = 150
 *	batch_size = 8
 *	f = 7
+*	optimizer = adam
 *	First Conv Layer – 16 filters
 *	Second Conv Layer – 32 filters
 *	Third Conv Layer – 64 filters
