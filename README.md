@@ -1,6 +1,6 @@
 # Empirical Evaluation of Deep Autoencoders for Anomaly Detection in Electricity Consumption of Buildings
 
-This repository contains additional material for the article "Empirical Evaluation of Deep Autoencoders for Anomaly Detection in Electricity Consumption of Buildings" authored by D. Azzalini, B. Flammini, C. A. Emanuele, A. Guadagno, E. Ragaini, and F. Amigoni, currently under major revision at IEEE Intelligent Systems.
+This repository contains additional material for the article "Empirical Evaluation of Deep Autoencoders for Anomaly Detection in Electricity Consumption of Buildings" authored by D. Azzalini, B. Flammini, C. A. Emanuele, A. Guadagno, E. Ragaini, and F. Amigoni.
 
 ## Related Work
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Year | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Venue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AE&nbsp;Usage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Network&nbsp;Topology&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dataset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |Regressors| Uni&nbsp;or&nbsp;Multi |Regularity| Granularity |Noise&nbsp;Level |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anomaly&nbsp;Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Proprietary |    
@@ -138,6 +138,34 @@ This repository contains additional material for the article "Empirical Evaluati
 *	Learning rate = 10<sup>-3</sup>
  
 ### LSTM VAE Self-Attention
+*	window = 672
+*	stride = 4
+    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_ATT_REC_P.png"> 
+*	M = 200
+*	latent_dim = 10
+*	epochs = 150
+*	batch_size = 8
+*	optimizer = adam
+*	First LSTM Layer (encoder) – 64 memory elements
+*	First LSTM Layer (decoder) – 64 memory elements
+*	Patience = 10
+*	Learning rate = 10<sup>-3</sup>
+
+### Bi-LSTM VAE Self-Attention
+*	window = 672
+*	stride = 4
+    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_ATT_REC_P.png"> 
+*	M = 200
+*	latent_dim = 10
+*	epochs = 150
+*	batch_size = 8
+*	optimizer = adam
+*	First LSTM Layer (encoder) – 64 memory elements
+*	First LSTM Layer (decoder) – 64 memory elements
+*	Patience = 10
+*	Learning rate = 10<sup>-3</sup>
+
+### Bi-LSTM VAE Conv Self-Attention
 *	window = 672
 *	stride = 4
     <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_ATT_REC_P.png"> 
