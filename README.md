@@ -137,7 +137,7 @@ This repository contains additional material for the article "Empirical Evaluati
 *	Patience = 10
 *	Learning rate = 10<sup>-3</sup>
  
-### LSTM VAE Self-Attention
+### LSTM VAE Self-Attention Rec Prob
 *	window = 672
 *	stride = 4
     <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_ATT_REC_P.png"> 
@@ -151,31 +151,31 @@ This repository contains additional material for the article "Empirical Evaluati
 *	Patience = 10
 *	Learning rate = 10<sup>-3</sup>
 
-### Bi-LSTM VAE Self-Attention
+### Bi-LSTM VAE Self-Attention Rec Prob
 *	window = 672
-*	stride = 4
     <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/Bi-LSTM_VAE_ATT_REC_P.png"> 
+*	stride = 4
 *	M = 200
 *	latent_dim = 10
 *	epochs = 150
 *	batch_size = 8
 *	optimizer = adam
-*	First LSTM Layer (encoder) – 64 memory elements
-*	First LSTM Layer (decoder) – 64 memory elements
+*	First Bi-LSTM Layer (encoder) – 64 memory elements
+*	First Bi-LSTM Layer (decoder) – 64 memory elements
 *	Patience = 10
 *	Learning rate = 10<sup>-3</sup>
 
-### Bi-LSTM VAE Conv Self-Attention
+### Bi-LSTM VAE Conv Self-Attention Rec Prob
 *	window = 672
+    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/Bi-LSTM_VAE_CONV_ATT_REC_P.png"> 
 *	stride = 4
-    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_ATT_REC_P.png"> 
 *	M = 200
 *	latent_dim = 10
 *	epochs = 150
 *	batch_size = 8
 *	optimizer = adam
-*	First LSTM Layer (encoder) – 64 memory elements
-*	First LSTM Layer (decoder) – 64 memory elements
+*	First Bi-LSTM Layer (encoder) – 64 memory elements
+*	First Bi-LSTM Layer (decoder) – 64 memory elements
 *	Patience = 10
 *	Learning rate = 10<sup>-3</sup>
 
