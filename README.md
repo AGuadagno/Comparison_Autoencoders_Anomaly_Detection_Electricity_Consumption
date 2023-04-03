@@ -154,7 +154,7 @@ This repository contains additional material for the article "Empirical Evaluati
 ### Bi-LSTM VAE Self-Attention
 *	window = 672
 *	stride = 4
-    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/LSTM_ATT_REC_P.png"> 
+    <img align="right"  height="50%" width="50%" src="https://github.com/AGuadagno/Comparison_Autoencoders_Anomaly_Detection_Electricity_Consumption/blob/main/img/Bi-LSTM_VAE_ATT_REC_P.png"> 
 *	M = 200
 *	latent_dim = 10
 *	epochs = 150
