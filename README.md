@@ -160,9 +160,9 @@ This repository contains additional material for the article "Empirical Evaluati
 *	epochs = 150
 *	batch_size = 8
 *	optimizer = adam
-*	First Bi-LSTM Layer (encoder) – 64 memory elements
-*	First Bi-LSTM Layer (decoder) – 64 memory elements
-*	Patience = 10
+*	First Bi-LSTM Layer (encoder) – 72 memory elements
+*	First Bi-LSTM Layer (decoder) – 72 memory elements
+*	Patience = 20
 *	Learning rate = 10<sup>-3</sup>
 
 ### Bi-LSTM VAE Conv Self-Attention Rec Prob
@@ -174,9 +174,9 @@ This repository contains additional material for the article "Empirical Evaluati
 *	epochs = 150
 *	batch_size = 8
 *	optimizer = adam
-*	First Bi-LSTM Layer (encoder) – 64 memory elements
-*	First Bi-LSTM Layer (decoder) – 64 memory elements
-*	Patience = 10
+*	First Bi-LSTM Layer (encoder) – 72 memory elements
+*	First Bi-LSTM Layer (decoder) – 72 memory elements
+*	Patience = 20
 *	Learning rate = 10<sup>-3</sup>
 
 
